@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.side-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+    border-image-slice: 1;
+}
+
+.orange-color {
+    color: darkorange;
+}
+
+p {
+    text-align: justify;
+}
+
+.link-button {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 33%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+#mission-heading {
+    text-align: center;
+}
+
+.mission-block {
+    background-color: azure;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 5%;
+    text-align: justify;
+
+}
+
+.vision-block {
+    background-color: #f4c5c5;
+    border-radius: 30px;
+    margin: 5%;
+    padding: 50px;
+    text-align: justify;
+
+}
+
+.goal-block {
+    background-color: #FFF4D6;
+    border-radius: 30px;
+    margin: 5%;
+    padding: 50px;
+    text-align: justify;
+
+}
+
+.mission {
+    display: flex;
+    padding: 50px;
+    background-image: url(/images/shapes/Group4.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.develop-area {
+    display: flex;
+    background-image: url(/images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    margin: inherit;
+}
