@@ -37,6 +37,7 @@ p {
 
 .half-width img {
     width: 80%;
+    padding: 20px;
 }
 
 #mission-heading {
@@ -87,4 +88,27 @@ p {
     background-repeat: no-repeat;
     background-size: 200px;
     margin: inherit;
+
+}
+
+.comunity-area {
+    display: flex;
+    font-weight: 800;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(/images/shapes/Group4.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.app {
+    display: flex;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+
 }
