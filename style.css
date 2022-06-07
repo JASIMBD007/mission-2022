@@ -3,6 +3,7 @@ body {
 }
 
 .side-border {
+    font-size: 20px;
     border-left: 5px solid;
     border-image: linear-gradient(blue, cyan) 30;
     border-image-slice: 1;
